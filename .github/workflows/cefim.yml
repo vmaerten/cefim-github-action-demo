@@ -15,4 +15,6 @@ jobs:
       - name: Display hello world
         run: echo 'Hello world'
       - name: Display Node version
-        run: node -v
+        run: touch truc.txt
+      - name: Affichage
+        run: ls
