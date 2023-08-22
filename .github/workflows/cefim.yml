@@ -12,4 +12,6 @@ jobs:
     steps:
       - name: Checkoutttt
         uses: actions/checkout@v3
+      - name: Display hello world
+        run: echo 'Hello world'
 
