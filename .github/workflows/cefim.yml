@@ -18,3 +18,10 @@ jobs:
         run: touch truc.txt
       - name: Affichage
         run: ls
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Affichage
+        run: ls
